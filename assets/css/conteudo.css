@@ -471,5 +471,17 @@ RESPONSIVO 1020
 		background-color: #3b5999;
 	}
 
+	.social-title{
+		font-size: 1.8em;
+		font-weight: 300;
+	}
+
+
+	.patrocinadores-title{
+		font-size: 1.8em;
+		font-weight: 300;
+	}
+
+
 
 }
