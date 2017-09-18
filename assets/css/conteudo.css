@@ -137,8 +137,7 @@ INSCRIÇÃO
 	font-weight: bold;
 }
 
-.inscricao-btn{
-	
+.inscricao-btn{	
 	color: #fff;
 	padding: 5%;
 	border-radius: 0.2em;
@@ -149,6 +148,7 @@ INSCRIÇÃO
 	font-weight: 300;
 	margin: 5% 0 0 0;
 	transition: all 0.3s ease;
+	border: 0;
 }
 
 .inscricao-btn:hover{
@@ -448,11 +448,13 @@ RESPONSIVO 1020
 
 
 	.inscricao-btn{	
-		padding: 2%;
-		width: 80%;
+		padding: 2% 5%;
+		width: 100%;
 		display: inline-block;
 		font-size: 2em;
 		text-transform: uppercase;
+		cursor: pointer;
+		border: 0;
 	}
 
 	.inscricao-btn:hover{
