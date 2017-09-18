@@ -1,9 +1,9 @@
 
 .prod{
-  background-image: url('../images/uploads/03.jpg');
+  background-image: url('../images/bg2.jpg');
   background-position: top center;
   background-repeat: no-repeat;
-  height: 100%;
+  height: 120%;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -14,7 +14,7 @@
 
 .produtos-desc{
 	padding: 20px 0px;
-	color: #17a2b8;
+	color: #38112c;
 }
 
 .produtos-valor{
@@ -25,138 +25,36 @@
 .prod-form{
 	background: rgba(0,0,0,0.5);
 	padding: 15px 10px;
-	margin: -10px 0 0 0;
+	margin: 0 0 30px 0;
 	color: #fff;
 }
 
 .btn2{
 	cursor: pointer;
 	margin: 10px 0 0 0;
-	width: 250px;
+	width: 200px;
 }
 
 
 
-.comp{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-}
+/*************************************************************************************************/
+@media(min-width:800px){
 
-
-.botao-wpp {
-  text-decoration: none;
-  color: #fff;
-  display: inline-block;
-  background-color: #25d366;
-  font-weight: bold;
-  padding: 5px 8px;
-  border-radius: 3px;
-  font-size: 13px;
-  margin: 3px 0 0 10px;
-  width: 117px !important;
-  height: 28px;
-}
-
-.botao-wpp:hover {
-  background-color: darken(#25d366, 5%);
-  text-decoration: none;
-  color: #eee;
-}
-
-.botao-wpp:focus {
-  background-color: darken(#25d366, 15%);
-}
-
-.botao-app{
-  text-decoration: none;
-  color: #fff;
-  display: inline-block;
-  background-color: #ea4335;
-  font-weight: bold;
-  padding: 5px 8px;
-  border-radius: 3px;
-  font-size: 13px;
-  margin: 3px 0 0 10px;
-  width: 117px !important;
-  height: 28px;
-}
-
-.botao-app:hover {
-  background-color: darken(#25d366, 5%);
-  text-decoration: none;
-  color: #eee;
-}
-
-.botao-app:focus {
-  background-color: darken(#25d366, 15%);
-}
-
-
-
-/*
-CONTATO
-*/
-
-.contato-page{
-  margin: 80px 0 0 0;
-  background-color: #eaca97;
-}
-
-
-.contato-page-title{
-  color: #1e1204;
-  font-size: 1.3em;
-  margin: 5% 0;
-}
-
-.contato-page .contato-page-tels{
-  margin: 0 0 4% 0;
-}
-
-.contato-page .contato-page-tels li{
-  list-style: none;
-  text-align: center;
-  font-size: 1em;
-  font-weight: 300;
-}
-
-.contato-page img{
-  width: 80%;
-}
-
-
-
-/********************************************************************************
-RESPONSIVO 400
-*********************************************************************************/
-@media(min-width:400px){
-
-  .contato-page img{
-    width: 70%;
+    .prod{
+     height: 100%;
   }
 
-}
-
-
-
-/********************************************************************************
-RESPONSIVO 760
-*********************************************************************************/
-@media(min-width:760px){
-
-  .contato-page{
-    margin: -200px 0 0 0;
+    .produtos{
+      margin: 60px 0 0 0;
   }
 
-  .contato-page img{
-    width: 70%;
+    .prod-form{
+      margin: 60px 0 30px 0;
   }
 
-}
 
+
+}
 
 
 
@@ -191,57 +89,3 @@ RESPONSIVO 760
 }
 
 
-.contato-page{
-  margin: -200px 0 0 0;
-}
-
-
-  .contato-page-title{
-    font-size: 2.2em;
-    margin: 4% 0;
-  }
-
-
-  .contato-page .contato-page-tels li{    
-    text-align: left;
-    font-size: 1.2em;
-    margin: 0 0 0 5%;
-  }
-
-  .contato-page img{
-    width: 100%;
-  }
-
-  .contato-page-flex{
-    display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-  }
-
-
-
-}
-
-
-
-
-
-/********************************************************************************
-RESPONSIVO 1020
-*********************************************************************************/
-@media(min-width:1020px){
-
-  .contato-page .contato-page-tels li{    
-    text-align: left;
-    font-size: 1.5em;
-    margin: 0 0 0 12%;
-  }
-
-  .contato-page img{
-    width: 80%;
-    margin: -7% 0 0 0;
-  }
-
-
-}
