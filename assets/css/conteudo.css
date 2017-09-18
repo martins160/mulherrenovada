@@ -147,6 +147,8 @@ INSCRIÇÃO
 	text-decoration: none;
 	font-weight: 300;
 	margin: 5% 0 0 0;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 	border: 0;
 }
@@ -195,11 +197,15 @@ SOCIAL
 	font-size: 2em;
 	color: #fff;
 	text-decoration: none;
-	margin: 4% 2% 0 2%;
-	padding: 3.7% 4%;
-	width: 50px
+	margin: 7% 2% 5% 2%;
+	padding: 10px 0 0 0;
+	width: 50px;
 	height: 50px;
 	border-radius: 50%;
+	text-align: center;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
 }
 
 .social a:hover{
@@ -265,9 +271,7 @@ RESPONSIVO 400
 *********************************************************************************/
 @media(min-width:400px){
 
-	.fa-facebook{
-		width: 62px;
-	}
+
 
 }
 
@@ -340,11 +344,20 @@ RESPONSIVO 960
 
 
 	.inscricao-flex{
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		flex-direction: row;
-		flex-wrap: nowrap;
-		justify-content: space-around;
-		align-items: center;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-ms-flex-wrap: nowrap;
+		    flex-wrap: nowrap;
+		-ms-flex-pack: distribute;
+		    justify-content: space-around;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
 	}
 
 
@@ -387,15 +400,31 @@ RESPONSIVO 960
 
 
 
-
 	.social-title{
-		font-size: 1.5em;
+		font-size: 1.8em;
+		font-weight: 300;
 	}
 
-	.fa-facebook{
-		width: 85px;
-		background-color: #3b5999;
+
+	.social a{
+		font-size: 3em;
+		color: #fff;
+		text-decoration: none;
+		margin: 3% 2% 2% 2%;
+		padding: 10px 0 0 0;
+		width: 70px;
+		height: 70px;
+		border-radius: 50%;
+		text-align: center;
 	}
+
+	.social{
+		padding: 2% 0;
+	}
+
+
+
+
 
 
 
@@ -464,19 +493,7 @@ RESPONSIVO 1020
 	}
 
 
-	.social-title{
-		font-size: 1.5em;
-	}
-
-	.fa-facebook{
-		width: 116px;
-		background-color: #3b5999;
-	}
-
-	.social-title{
-		font-size: 1.8em;
-		font-weight: 300;
-	}
+	
 
 
 	.patrocinadores-title{
