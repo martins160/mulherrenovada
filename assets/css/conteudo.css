@@ -133,7 +133,7 @@ INSCRIÇÃO
 }
 
 .inscricao-flex-bloco1 .insc{
-	font-size: 1.6em;
+	font-size: 1.2em;
 	font-weight: bold;
 }
 
@@ -143,7 +143,7 @@ INSCRIÇÃO
 	border-radius: 0.2em;
 	width: 100%;
 	display: block;
-	font-size: 1.4em;
+	font-size: 0.7em;
 	text-decoration: none;
 	font-weight: 300;
 	margin: 5% 0 0 0;
@@ -158,6 +158,45 @@ INSCRIÇÃO
 	background-color: #410f4b;
 	color: #fff;
 }
+
+
+.dados_banc{
+	background-color: rgba(255,255,255,0.4);
+	padding: 20px 10px;
+	margin: 15px 0 0 0;
+}
+
+.dados_banc h1{
+	font-size: 1em;
+	color: #42163a;
+	font-weight: bold;
+	margin: 10px 0 0 0;
+}
+
+.dados_banc p{
+	font-size: 1em;
+	color: #42163a;
+	font-weight: 100;
+	margin: 5px 0 10px 0;
+}
+
+.dados_banc strong{
+	font-weight: bold;
+}
+
+.dados_banc li{
+	list-style: none;
+	font-size: 1em;
+	color: #42163a;
+	font-weight: 100;
+	margin: 5px 0;
+	text-align: left;
+}
+
+
+
+
+
 
 
 
@@ -257,11 +296,17 @@ PATROCINADORES
 	font-size: 1.3em;
 }
 
+.patrocinadores-flex{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: 15px 0 0 0;
+}
+
 .patrocinadores-box{
-	width: 25%;
+	width: 50%;
 	height: 70px;
-	background-color: #ccc;
-	display: inline-block;
 }
 
 
@@ -367,6 +412,10 @@ RESPONSIVO 960
 		font-weight: 300;
 	}
 
+	.inscricao-flex-bloco1 .insc{
+		font-size: 1.6em;
+	}	
+
 
 	.inscricao-btn{	
 		padding: 3%;
@@ -385,7 +434,46 @@ RESPONSIVO 960
 
 
 
+	.dados_banc{
+		padding: 20px;
+		margin: 15px 0 0 0;
+	}
 
+	.dados_banc h1{
+		font-size: 2em;
+	}
+
+	.dados_banc p{
+		font-size: 1.3em;
+	}
+
+	.dados_banc strong{
+		font-weight: bold;
+	}
+
+	.dados_banc li{
+		list-style: none;
+		font-size: 2em;
+		color: #42163a;
+		font-weight: 100;
+		margin: 5px 0;
+		text-align: left;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+	.local{
+		margin: 20px 0 0 0;
+	}
 
 
 	.local-end{
@@ -439,9 +527,20 @@ RESPONSIVO 960
 		font-size: 1.8em;
 	}
 
+	.patrocinadores-flex{
+		display: block;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: center;
+		margin: 15px 0 0 0;
+	}
+
+
 	.patrocinadores-box{
 		width: 25%;
 		height: 120px;
+		background-color: #ccc;
+		display: inline-block;
 	}
 
 
@@ -472,7 +571,7 @@ RESPONSIVO 1020
 
 
 	.inscricao-flex-bloco1{
-		width: 30%;
+		width: 40%;
 	}
 
 
